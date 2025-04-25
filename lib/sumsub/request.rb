@@ -2,8 +2,8 @@
 
 module Sumsub
   class Request
-    PRODUCTION_URL = "https://api.sumsub.com."
-    TEST_URL = "https://test-api.sumsub.com."
+    PRODUCTION_URL = "https://api.sumsub.com"
+    TEST_URL = "https://test-api.sumsub.com"
 
     attr_reader :url, :secret_key, :token
 
